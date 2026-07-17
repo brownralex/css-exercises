@@ -5,16 +5,32 @@ body {
 
 .card {
   width: 400px;
+  padding: 8px;
   background: white;
   margin: 16px auto;
 }
 
-.title,
-.content,
+.title{
+  padding: 20px;
+  margin: 20px;
+  font-size: 16px;
+  background: dodgerblue;
+}
+.content{
+  padding: 16px 8px;
+  margin: 20px;
+  background: dodgerblue;
+
+}
 .button-container {
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
   background: dodgerblue;
 }
 
 button {
-  background: white;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
